@@ -1,0 +1,42 @@
+@media (max-width: 760px){
+    .banner-content h2 {
+        font-size: 1.5em;
+    }
+
+    .banner-content h1 {
+        font-size: 2.5em;
+    }
+
+    .portfolio-line p {
+        border-top: 4px solid #2c3e50;
+        display: flex;
+        max-width: 300px;
+    }   
+
+    .about-text {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .about-text p {
+        text-align: center;
+    }
+
+    .contact-forms {
+        max-width: 300px;
+    }
+
+    .info-container {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .info-content {
+        line-height: none;
+        flex: 0;
+    } 
+}
